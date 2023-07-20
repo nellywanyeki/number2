@@ -1,0 +1,22 @@
+2. public class Break; {
+    String overallGrade = "";
+        if (averageMark >= 90) {
+            overallGrade = "A+";
+        } else if (averageMark >= 80) {
+            overallGrade = "A";
+        } else if (averageMark >= 70) {
+            overallGrade = "B";
+        } else if (averageMark >= 60) {
+            overallGrade = "C";
+        } else if (averageMark >= 50) {
+            overallGrade = "D";
+        } else {
+            overallGrade = "F";
+        }
+        
+        // Print the overall average mark and grade
+        System.out.println(" average mark for " + fullName + ": " + averageMark);
+        System.out.println("Overall grade for " + fullName + ": " + overallGrade);
+        
+    }
+    
